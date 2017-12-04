@@ -40,7 +40,7 @@ public:
 	}
 
 	GrowArray& operator =(GrowArray copy) {
-		int* temp = p; p = copy.p; copy.p = temp;
+		int* temp = p; p = copy.p; copy.p = temp;}
 
     //Function to add to front of grow array
 	void add_front(int original) {
@@ -78,6 +78,7 @@ public:
         s << a.p[a.used - 1];
         return s;
     }
+
 };
 
 int main(){
@@ -117,7 +118,7 @@ int main(){
 
 		else if (line == "ADD_BACK"){
 			string values;
-			f >> values;f
+			f >> values;
 			int pos, a, b, c;
 
             //Similar to ADD_FRONT, this take in values, separated by colons

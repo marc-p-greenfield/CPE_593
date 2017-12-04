@@ -3,9 +3,8 @@
 #include <cmath>
 using namespace std;
 
-/*
- * Sources: Thomas Prescott Wright
-*/
+//Sources : Thomas Wright
+
 class CountPrimes {
     public:
     CountPrimes() {};
